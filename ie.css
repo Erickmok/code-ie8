@@ -1,0 +1,46 @@
+.item_a
+{
+  behavior: url(dist/default/css/border.htc);
+}
+.item_b
+{
+  behavior: url(dist/default/css/border.htc);
+}
+#btn_items
+{
+  behavior: url(dist/default/css/border.htc);
+}
+.item_a:hover
+{
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.05,M12=0,M21=0,M22=1.05,SizingMethod='auto expand')";
+}
+.item_b:hover
+{
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.05,M12=0,M21=0,M22=1.05,SizingMethod='auto expand')";
+}
+
+.collapse
+{
+  visibility:visible !important;
+  display:block !important;
+}
+.navbar-collapse {
+  overflow: visible;
+}
+.navbar-toggle
+{
+  display:none !important;
+}
+#col-right
+{
+  padding-left:12px;
+}
+#col-left
+{
+  padding-right:12px;
+}
+.cell-item
+{
+  padding-left: 2px;
+}
+
